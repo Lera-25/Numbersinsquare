@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main (void)
+{ 
+setlocale(LC_ALL, ".1251");
+for(int s=1; s<=9; s+=2){
+cout<<s<<" "<<s*s<<endl;
+}
+return 0;
+}
